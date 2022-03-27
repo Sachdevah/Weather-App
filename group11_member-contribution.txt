@@ -1,0 +1,11 @@
+# Group11 Member Contribution
+
+RIKHIL SHAH - App.js, index.css, CurrentWeather.js, Header.js, Location.js, NavBar.js, Profile.js, Records.js, WeatherConditions.js, WeatherForecast.js
+
+HARISON SUNDARAMOORTHY - Wind.js, general bug fixing
+
+HARDIK SACHDEVA - Pressure.js, Pollution.js
+
+RONIK KAMLESH - UV.js
+
+EEMAN KANWAL - Pollution.js
