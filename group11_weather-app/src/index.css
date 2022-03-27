@@ -1,0 +1,168 @@
+/*
+Whole application styles
+*/
+html
+{
+  background-color: #282c34 !important;
+}
+body
+{
+  color: white !important;
+  margin: auto !important;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+  url("assets/day.jpeg");
+  background-size: cover !important;
+  max-width: 420px !important;
+  height: 100vh !important;
+}
+.container
+{
+  height: 88vh !important;
+} 
+
+
+/*
+Header component styles
+*/
+.date
+{
+  font-size: 1.1em !important;
+}
+.time
+{
+  font-size: 1.5em !important;
+  font-weight: bold;
+}
+
+
+/*
+CurrentWeather & Location component styles
+*/
+.currentTemp
+{
+  font-size: 5em;
+}
+.weatherIcon
+{
+  height: 150px;
+  width: 150px;
+  margin-top: -0.9em;
+}
+.weatherPrediction /* info button */
+{
+  height: 30px !important;
+  width: 30px !important;
+  border-radius: 30px !important;
+  font-weight: bold !important;
+  margin-top: 1.5em;
+}
+.currentLocation
+{ 
+  margin-top: -0.7em;
+  margin-right: 0.3em;
+  font-size: 2.5em;
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+/*
+WeatherForecast & WeatherConditions component styles
+*/
+.weatherConditionGroup > .weatherConditions /* Horizontally scrollable */
+{
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.weatherConditionGroup > .weatherConditions > .weatherCondition /* Horizontally scrollable */
+{
+  display: inline-block;
+}
+.condition
+{
+  font-size: 2.25em !important;
+}
+.forecast, .weatherCondition
+{
+  font-size: 1.35em !important;
+}
+
+
+/*
+Individual WeatherCondition components styling, e.g. Wind, UV, etc...
+*/
+.conditionInfo
+{
+  border-radius:0.5em !important;
+  font-size: 0.8em !important;
+  width: 10em;
+}
+
+
+/*
+Profile component styling
+*/
+.profile
+{
+  font-size: 1.6em !important;
+}
+.postcode
+{
+  text-transform: uppercase;
+  width: 12em !important;
+  font-weight: bold !important;
+}
+.capitalise
+{
+  text-transform: capitalize;
+}
+
+
+/*
+Record component styling
+*/
+.recordTitle
+{
+  font-size: 1.4em !important;
+}
+.naturalDisaster
+{
+  border-radius:0.5em !important;
+  font-size: 1.1em !important;
+  width: 16em !important;
+}
+.btnInfo
+{
+  height: 30px !important;
+  width: 30px !important;
+  float: right !important;
+}
+
+
+
+
+/*
+
+If height should be set to pixel 2 height for all devices use this...
+also, unfix navbar to bottom and remove bootstrap responsiveness in cols of navbar 
+.container
+{
+  height: 650px !important;
+} 
+
+EXTRA
+@media screen and (max-height: 767px) 
+@media screen and (min-height: 768px) 
+
+*/
+
+
+
+
+
+
+
+
+
+
